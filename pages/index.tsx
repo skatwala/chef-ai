@@ -35,16 +35,16 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>MealMate AI</title>
+        <title>Chef AI</title>
         <meta name="description" content="Create recipes with AI" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className="min-h-screen p-10 bg-gray-100 text-black">
-        
-        <h1 className="text-5xl p-2 font-bold">MealMate AI</h1>
+        <div className="text-7xl">🧑‍🍳</div>
+        <h1 className="text-5xl p-2 font-bold">ChefAI</h1>
         <h2 className="text-xl p-2 font-normal">
-        Quick and Healthy: Just tell us what you have and how long you can cook, and our AI will suggest healthy delicious recipes. Enjoy your meal!
+          Generate recipes with AI based on ingredients and cook time
         </h2>
         <form onSubmit={handleSubmit}>
           {ingredients.map((ingredient, index) => (
